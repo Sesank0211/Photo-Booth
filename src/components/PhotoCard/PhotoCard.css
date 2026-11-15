@@ -1,0 +1,13 @@
+.photo-card { overflow: hidden; border: 1px solid #e9ece9; border-radius: 15px; background: #fff; box-shadow: 0 5px 18px rgba(36,48,42,.045); transition: transform .22s ease, box-shadow .22s ease; }
+.photo-card:hover { transform: translateY(-3px); box-shadow: 0 12px 30px rgba(36,48,42,.10); }
+.photo-frame { overflow: hidden; background: #e9ece9; line-height: 0; }
+.photo-frame img { display: block; width: 100%; height: auto; max-height: 720px; object-fit: cover; transition: transform .45s ease; }
+.photo-card:hover .photo-frame img { transform: scale(1.012); }
+.photo-meta { min-height: 76px; padding: 14px 19px; display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+.author-wrap { display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+.author-label { color: #99a19e; font-size: .68rem; letter-spacing: .07em; text-transform: uppercase; }
+.author-name { overflow: hidden; color: #35413d; font-size: .94rem; font-weight: 600; text-overflow: ellipsis; white-space: nowrap; }
+.like-button { flex: 0 0 auto; min-width: 57px; height: 38px; padding: 0 12px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; border: 1px solid #e7ebe8; border-radius: 10px; background: #fff; color: #78827e; cursor: pointer; transition: background .18s ease, color .18s ease, border-color .18s ease, transform .18s ease; }
+.like-button:hover { border-color: #ccd9d1; background: #f3f7f4; color: #466b59; }
+.like-button:active { transform: scale(.96); }
+.like-button.is-liked { border-color: #dbe8df; background: #edf5ef; color: #467859; }

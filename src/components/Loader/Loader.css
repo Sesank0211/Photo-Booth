@@ -1,0 +1,4 @@
+.loader { display: flex; align-items: center; justify-content: center; gap: 11px; padding: 28px 16px; color: #77827d; font-size: .9rem; }
+.loader-spinner { width: 19px; height: 19px; border: 2px solid #dfe7e1; border-top-color: #678273; border-radius: 50%; animation: spin .75s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .loader-spinner { animation-duration: 1.8s; } }

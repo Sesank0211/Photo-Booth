@@ -1,0 +1,4 @@
+.error-message { margin: 18px 0; padding: 18px 20px; display: flex; align-items: center; justify-content: space-between; gap: 16px; border: 1px solid #efd9d2; border-radius: 12px; background: #fff9f7; color: #88584a; font-size: .9rem; }
+.error-message p { margin: 0; }
+.error-message button { padding: 8px 13px; border: 1px solid #e4c5bb; border-radius: 8px; background: #fff; color: #794b3e; font-weight: 600; cursor: pointer; }
+.error-message button:hover { background: #fff0ea; }

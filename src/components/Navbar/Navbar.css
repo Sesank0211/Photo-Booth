@@ -1,0 +1,7 @@
+.navbar { height: 68px; padding: 0 max(24px, calc((100% - 1120px) / 2)); display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #e9ece8; background: rgba(255,255,255,.84); }
+.brand { display: inline-flex; align-items: center; gap: 10px; color: #25332f; text-decoration: none; font-weight: 700; letter-spacing: -.025em; }
+.brand-mark { width: 27px; height: 27px; display: grid; place-items: center; border-radius: 9px; background: #e7eee9; }
+.brand-mark::before, .brand-mark span { content: ''; grid-area: 1 / 1; width: 13px; height: 10px; border: 1.5px solid #53685f; border-radius: 3px; }
+.brand-mark span { width: 4px; height: 4px; border-radius: 50%; background: #53685f; transform: translate(-3px,-2px); }
+.navbar-note { color: #8a9590; font-size: .82rem; }
+@media (max-width: 560px) { .navbar { height: 60px; padding: 0 18px; } .navbar-note { font-size: .72rem; } }
